@@ -20,3 +20,8 @@ if guess in numbers2:
 	print("Ты чертов экстрасенс!!")
 else:
 	print("Ты облажайся, парень!")
+
+numbers3 = {5: "пять", 10: "десять", 15: "девять", 20}
+if guess in numbers3:
+	print("Урра, кортежи!")
+	
